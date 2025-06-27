@@ -13,35 +13,38 @@ import { useEffect } from "react";
 export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
   const { theme, setTheme } = useAppContext();
 
-  useEffect(() => {
-    const themeInCache = cacheGet(CacheKey.Theme);
-    if (themeInCache) {
-      // theme setted
-      if (["dark", "light"].includes(themeInCache)) {
-        setTheme(themeInCache);
-        return;
-      }
-    } else {
-      // theme not set
-      const defaultTheme = process.env.NEXT_PUBLIC_DEFAULT_THEME;
-      if (defaultTheme && ["dark", "light"].includes(defaultTheme)) {
-        setTheme(defaultTheme);
-        return;
-      }
-    }
+  // useEffect(() => {
+  //   const themeInCache = cacheGet(CacheKey.Theme);
+  //   if (themeInCache) {
+  //     // theme setted
+  //     if (["dark", "light"].includes(themeInCache)) {
+  //       setTheme(themeInCache);
+  //       return;
+  //     }
+  //   } else {
+  //     // theme not set
+  //     const defaultTheme = process.env.NEXT_PUBLIC_DEFAULT_THEME;
+  //     if (defaultTheme && ["dark", "light"].includes(defaultTheme)) {
+  //       setTheme(defaultTheme);
+  //       return;
+  //     }
+  //   }
 
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-    setTheme(mediaQuery.matches ? "dark" : "light");
+  //   const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+  //   setTheme(mediaQuery.matches ? "dark" : "light");
 
-    const handleChange = () => {
-      setTheme(mediaQuery.matches ? "dark" : "light");
-    };
-    mediaQuery.addListener(handleChange);
+  //   const handleChange = () => {
+  //     setTheme(mediaQuery.matches ? "dark" : "light");
+  //   };
+  //   mediaQuery.addListener(handleChange);
 
-    return () => {
-      mediaQuery.removeListener(handleChange);
-    };
-  }, []);
+  //   return () => {
+  //     mediaQuery.removeListener(handleChange);
+  //   };
+  // }, []);
+
+  const defaultTheme = process.env.NEXT_PUBLIC_DEFAULT_THEME
+  setTheme(defaultTheme);
 
   return (
     <NextThemesProvider forcedTheme={theme} {...props}>

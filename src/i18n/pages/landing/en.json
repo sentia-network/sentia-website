@@ -18,57 +18,37 @@
           "icon": "RiSparkling2Line"
         },
         {
-          "title": "Pricing",
-          "url": "/pricing",
-          "icon": "RiMoneyDollarCircleLine"
-        },
-        {
-          "title": "Showcase",
-          "url": "/showcase",
-          "icon": "RiApps2Line"
+          "title": "FAQ",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
         }
       ]
     },
-    "buttons": [
-      {
-        "title": "Get ShipAny",
-        "url": "https://shipany.ai",
-        "target": "_blank",
-        "variant": "link",
-        "icon": "RiArrowRightUpLine"
-      }
-    ],
+    "buttons": [],
     "show_sign": true,
-    "show_theme": true,
-    "show_locale": true
+    "show_theme": false,
+    "show_locale": false
   },
   "hero": {
-    "title": "Ship Any AI Startups in hours, not days",
-    "highlight_text": "Ship Any",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups.<br/>Ship Fast with a variety of templates and components.",
+    "title": "Turn your on-chain account into an intelligent entity",
+    "highlight_text": "",
+    "description": "Sentia is a native world designed for AI Agents. Here, every account can perceive, understand, act, and co-build your on-chain future with you.",
     "announcement": {
       "label": "2025",
       "title": "🎉 Happy New Year",
       "url": "/#pricing"
     },
-    "tip": "🎁 50% off before 2025",
+    "tip": "",
     "buttons": [
       {
-        "title": "Get Started",
+        "title": "Launch Agent",
         "icon": "RiFlashlightFill",
-        "url": "/#pricing",
-        "target": "_self",
-        "variant": "default"
-      },
-      {
-        "title": "Join Discord",
-        "icon": "RiDiscordFill",
         "url": "https://discord.gg/HQNnrzjZQS",
         "target": "_blank",
-        "variant": "outline"
+        "variant": "default"
       }
     ],
-    "show_happy_users": true,
+    "show_happy_users": false,
     "show_badge": false
   },
   "branding": {
@@ -113,58 +93,66 @@
   },
   "introduce": {
     "name": "introduce",
-    "title": "What is ShipAny",
+    "title": "What is Sentia",
     "label": "Introduce",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Built in a variety of templates and components.",
+    "description": "Not a tool, but a network of intelligent beings",
     "image": {
       "src": "/imgs/features/1.png"
     },
     "items": [
       {
-        "title": "Ready-to-use Templates",
-        "description": "Choose from dozens of production-ready AI SaaS templates to quickly start your project.",
-        "icon": "RiNextjsFill"
+        "title": "Accounts Were Just Addresses",
+        "description": "On-chain accounts used to be static addresses — with no memory, behavior, or autonomy.",
+        "icon": "RiWallet3Line"
       },
       {
-        "title": "Infrastructure Setup",
-        "description": "Get instant access to scalable infrastructure with best practices built-in.",
-        "icon": "RiDatabase2Line"
+        "title": "Sentia Awakens the Account",
+        "description": "With Sentia, every account hosts an intelligent Agent that thinks, senses your intent, and helps you complete complex tasks.",
+        "icon": "RiRobot2Line"
       },
       {
-        "title": "Quick Deployment",
-        "description": "Deploy your AI SaaS application to production in hours, not days.",
-        "icon": "RiCloudyFill"
+        "title": "Beyond Understanding, Toward Symbiosis",
+        "description": "These Agents don’t just follow commands — they adapt to your rhythm and collaborate with your extended agent network.",
+        "icon": "RiShareForward2Line"
       }
     ]
   },
   "benefit": {
     "name": "benefit",
-    "title": "Why Choose ShipAny",
+    "title": "Why Choose Sentia",
     "label": "Benefits",
-    "description": "Get everything you need to launch your AI startup - from ready-to-use templates to technical support.",
+    "description": "We're not just intelligent — we understand you",
     "items": [
       {
-        "title": "Complete Framework",
-        "description": "Built on Next.js with authentication, payments, and AI integration - everything works out of the box.",
-        "icon": "RiNextjsFill",
+        "title": "Personalized Intelligence",
+        "description": "Every account has its own Agent that learns your preferences, habits, and goals",
+        "icon": "RiUser5Line",
         "image": {
           "src": "/imgs/features/2.png"
         }
       },
       {
-        "title": "Rich Templates Library",
-        "description": "Choose from various AI SaaS templates to kickstart your project - chatbots, image generation, and more.",
-        "icon": "RiClapperboardAiLine",
+        "title": "Native Collaboration",
+        "description": "A2A protocol enables seamless collaboration between agents for fast knowledge and resource transfer",
+        "icon": "RiLinksLine",
         "image": {
           "src": "/imgs/features/3.png"
         }
       },
       {
-        "title": "Technical Guidance",
-        "description": "Get dedicated support and join our developer community to ensure your successful launch.",
-        "icon": "RiCodeFill",
+        "title": "Secure & Accountable",
+        "description": "All actions require explicit permission, with permission layers and on-chain auditability",
+        "icon": "RiShieldKeyholeLine",
         "image": {
           "src": "/imgs/features/4.png"
+        }
+      },
+      {
+        "title": "Proactive Action",
+        "description": "Agents don’t just react — they sense context and take initiative on your behalf",
+        "icon": "RiRadarLine",
+        "image": {
+          "src": "/imgs/features/5.png"
         }
       }
     ]
@@ -211,38 +199,28 @@
   },
   "feature": {
     "name": "feature",
-    "title": "Key Features of ShipAny",
-    "description": "Everything you need to launch your AI SaaS startup quickly and efficiently.",
+    "title": "Sentia Features",
+    "description": "AI Agents made for you, and built around you",
     "items": [
       {
-        "title": "Next.js Boilerplate",
-        "description": "Production-ready Next.js templates with SEO-friendly structure and i18n support.",
-        "icon": "RiNextjsFill"
+        "title": "Behavioral Modeling",
+        "description": "Learns from your on-chain behavior to adapt execution strategies.",
+        "icon": "RiBrainLine"
       },
       {
-        "title": "Authentication & Payments",
-        "description": "Integrated Google OAuth, one-tap login, and Stripe payment processing.",
-        "icon": "RiKey2Fill"
+        "title": "Multimodal Input",
+        "description": "Understands text, data context, and on-chain signals.",
+        "icon": "RiInputMethodLine"
       },
       {
-        "title": "Data Infrastructure",
-        "description": "Built-in Supabase integration for reliable and scalable data storage.",
-        "icon": "RiDatabase2Line"
+        "title": "Interaction",
+        "description": "Agents autonomously communicate and collaborate with others.",
+        "icon": "RiTeamLine"
       },
       {
-        "title": "One-Click Deployment",
-        "description": "Seamless deployment to Vercel or Cloudflare with automated setup.",
-        "icon": "RiCloudy2Fill"
-      },
-      {
-        "title": "Business Analytics",
-        "description": "Integrated Google Analytics and Search Console for tracking growth.",
-        "icon": "RiBarChart2Line"
-      },
-      {
-        "title": "AI-Ready Infrastructure",
-        "description": "Pre-configured AI integration with built-in credits system and API sales.",
-        "icon": "RiRobot2Line"
+        "title": "Permission Control",
+        "description": "Every action is authorized by you, with revocable boundaries.",
+        "icon": "RiShieldKeyholeLine"
       }
     ]
   },
@@ -330,59 +308,53 @@
   "faq": {
     "name": "faq",
     "label": "FAQ",
-    "title": "Frequently Asked Questions About ShipAny",
-    "description": "Have another question? Contact us on Discord or by email.",
+    "title": "Frequently Asked Questions About Sentia",
+    "description": "",
     "items": [
       {
-        "title": "What exactly is ShipAny and how does it work?",
-        "description": "ShipAny is a comprehensive NextJS boilerplate designed specifically for building AI SaaS startups. It provides ready-to-use templates, infrastructure setup, and deployment tools that help you launch your AI business in hours instead of days."
+        "title": "Is Sentia a platform, a protocol, or a product?",
+        "description": "Sentia is an ecosystem built on the A2A protocol — it’s both a technical framework and a user-facing product."
       },
       {
-        "title": "Do I need advanced technical skills to use ShipAny?",
-        "description": "While basic programming knowledge is helpful, ShipAny is designed to be developer-friendly. Our templates and documentation make it easy to get started, even if you're not an expert in AI or cloud infrastructure."
+        "title": "Do I need coding knowledge to use Sentia?",
+        "description": "No, Sentia Agents support natural language input. You can activate your Agent with a simple sentence."
       },
       {
-        "title": "What types of AI SaaS can I build with ShipAny?",
-        "description": "ShipAny supports a wide range of AI applications, from content generation to data analysis tools. Our templates cover popular use cases like AI chatbots, content generators, image processing apps, and more."
+        "title": "What is A2A and how is it different from traditional AI apps?",
+        "description": "A2A (Agent-to-Agent) refers to on-chain collaboration between Agents, enabling native AI-to-AI interactions beyond isolated intelligence."
       },
       {
-        "title": "How long does it typically take to launch with ShipAny?",
-        "description": "With ShipAny, you can have a working prototype in hours and a production-ready application in hours. Our one-click deployment and pre-configured infrastructure significantly reduce the traditional months-long development cycle."
+        "title": "Are Agents autonomous? Is it safe?",
+        "description": "Every action requires your explicit authorization. Sentia supports permission control and on-chain auditability to ensure safety."
       },
       {
-        "title": "What's included in the ShipAny infrastructure?",
-        "description": "ShipAny provides a complete infrastructure stack including authentication, database setup, API integration, payment processing, and scalable cloud deployment. Everything is pre-configured following industry best practices."
+        "title": "In what scenarios can Sentia be used?",
+        "description": "Sentia Agents can support trading strategies, social coordination, knowledge collaboration, task delegation, information retrieval, and more."
       },
       {
-        "title": "Can I customize the templates to match my brand?",
-        "description": "Absolutely! All ShipAny templates are fully customizable. You can modify the design, features, and functionality to match your brand identity and specific business requirements while maintaining the robust underlying infrastructure."
+        "title": "Can I assign multiple Agents to multiple accounts?",
+        "description": "Yes, each on-chain account can have its own Agent. They operate independently or can be configured to collaborate."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Ship your first AI SaaS Startup",
-    "description": "Start from here, ship with ShipAny.",
+    "title": "Start Creating with Your On-Chain Agent",
+    "description": "Experience Sentia’s intelligent agent services and unlock unlimited on-chain possibilities.",
     "buttons": [
       {
-        "title": "Get ShipAny",
+        "title": "Try for Free",
         "url": "https://shipany.ai",
         "target": "_blank",
         "icon": "GoArrowUpRight"
-      },
-      {
-        "title": "Read Document",
-        "url": "https://docs.shipany.ai",
-        "target": "_blank",
-        "variant": "outline"
       }
     ]
   },
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "ShipAny",
-      "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Ship Fast with a variety of templates and components.",
+      "title": "Sentia",
+      "description": "Sentia is a Web3-native agent ecosystem that equips every on-chain account with behavioral AI Agents — redefining human-AI interaction.",
       "logo": {
         "src": "/logo.png",
         "alt": "ShipAny"
@@ -401,54 +373,9 @@
               "target": "_self"
             },
             {
-              "title": "Showcases",
-              "url": "/#showcase",
+              "title": "FAQ",
+              "url": "/#faq",
               "target": "_self"
-            },
-            {
-              "title": "Pricing",
-              "url": "/#pricing",
-              "target": "_self"
-            }
-          ]
-        },
-        {
-          "title": "Resources",
-          "children": [
-            {
-              "title": "Documents",
-              "url": "https://docs.shipany.ai",
-              "target": "_blank"
-            },
-            {
-              "title": "Components",
-              "url": "https://shipany.ai/components",
-              "target": "_blank"
-            },
-            {
-              "title": "Templates",
-              "url": "https://shipany.ai/templates",
-              "target": "_blank"
-            }
-          ]
-        },
-        {
-          "title": "Friends",
-          "children": [
-            {
-              "title": "ThinkAny",
-              "url": "https://thinkany.ai",
-              "target": "_blank"
-            },
-            {
-              "title": "HeyBeauty",
-              "url": "https://heybeauty.ai",
-              "target": "_blank"
-            },
-            {
-              "title": "Pagen",
-              "url": "https://pagen.so",
-              "target": "_blank"
             }
           ]
         }
