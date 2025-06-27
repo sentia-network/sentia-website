@@ -43,8 +43,7 @@ export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
   //   };
   // }, []);
 
-  const defaultTheme = process.env.NEXT_PUBLIC_DEFAULT_THEME
-  setTheme(defaultTheme);
+  setTheme('dark');
 
   return (
     <NextThemesProvider forcedTheme={theme} {...props}>
