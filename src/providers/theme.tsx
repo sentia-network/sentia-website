@@ -43,7 +43,9 @@ export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
   //   };
   // }, []);
 
-  setTheme('dark');
+  useEffect(() => {
+    setTheme('dark');
+  }, [])
 
   return (
     <NextThemesProvider forcedTheme={theme} {...props}>

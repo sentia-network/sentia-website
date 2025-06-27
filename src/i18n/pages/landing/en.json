@@ -136,7 +136,7 @@
         "description": "A2A protocol enables seamless collaboration between agents for fast knowledge and resource transfer",
         "icon": "RiLinksLine",
         "image": {
-          "src": "/imgs/features/3.png"
+          "src": "/imgs/features/2.png"
         }
       },
       {
@@ -144,7 +144,7 @@
         "description": "All actions require explicit permission, with permission layers and on-chain auditability",
         "icon": "RiShieldKeyholeLine",
         "image": {
-          "src": "/imgs/features/4.png"
+          "src": "/imgs/features/2.png"
         }
       },
       {
@@ -152,7 +152,7 @@
         "description": "Agents don’t just react — they sense context and take initiative on your behalf",
         "icon": "RiRadarLine",
         "image": {
-          "src": "/imgs/features/5.png"
+          "src": "/imgs/features/2.png"
         }
       }
     ]
@@ -361,7 +361,7 @@
       },
       "url": "/"
     },
-    "copyright": "© 2025 • ShipAny All rights reserved.",
+    "copyright": "© 2025 • sentia.network All rights reserved.",
     "nav": {
       "items": [
         {
