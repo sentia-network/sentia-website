@@ -43,8 +43,8 @@
       {
         "title": "Launch Agent",
         "icon": "RiFlashlightFill",
-        "url": "https://shipany.ai",
-        "target": "_blank",
+        "url": "/",
+        "target": "",
         "variant": "default"
       }
     ],
