@@ -12,6 +12,31 @@
     },
     "nav": {
       "items": [
+         {
+          "title": "WorkSpace",
+          "url": "",
+          "icon": "RiLayoutGridLine"
+        },
+        {
+          "title": "Agent Store",
+          "url": "",
+          "icon": "RiStoreLine"
+        },
+        {
+          "title": "A2A",
+          "url": "",
+          "icon": "RiShareForwardBoxLine"
+        },
+        {
+          "title": "GitHub",
+          "url": "",
+          "icon": "RiGithubLine"
+        },
+        {
+          "title": "Docs",
+          "url": "",
+          "icon": "RiFileTextLine"
+        },
         {
           "title": "Features",
           "url": "/#feature",
@@ -365,17 +390,42 @@
     "nav": {
       "items": [
         {
-          "title": "About",
+          "title": "Protocol",
           "children": [
             {
-              "title": "Features",
-              "url": "/#feature",
-              "target": "_self"
+              "title": "A2A Protocol",
+              "url": "",
+              "target": ""
+            }
+          ]
+        },
+        {
+          "title": "Explore",
+          "children": [
+            {
+              "title": "Use Cases",
+              "url": "",
+              "target": ""
             },
             {
-              "title": "FAQ",
-              "url": "/#faq",
-              "target": "_self"
+              "title": "Agent Store",
+              "url": "",
+              "target": ""
+            }
+          ]
+        },
+        {
+          "title": "Company",
+          "children": [
+            {
+              "title": "About us",
+              "url": "",
+              "target": ""
+            },
+            {
+              "title": "Contact us",
+              "url": "",
+              "target": ""
             }
           ]
         }

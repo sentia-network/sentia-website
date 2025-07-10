@@ -56,9 +56,13 @@ export default function Footer({ footer }: { footer: FooterType }) {
                   <ul className="space-y-4 text-sm text-muted-foreground">
                     {item.children?.map((iitem, ii) => (
                       <li key={ii} className="font-medium hover:text-primary">
-                        <a href={iitem.url} target={iitem.target}>
-                          {iitem.title}
-                        </a>
+                        {iitem.url ? (
+                          <a href={iitem.url} target={iitem.target}>
+                            {iitem.title}
+                          </a>
+                        ) : (
+                          <p className="lg:cursor-pointer">{iitem.title}</p>
+                        )}
                       </li>
                     ))}
                   </ul>
