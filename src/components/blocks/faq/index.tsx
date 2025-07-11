@@ -13,7 +13,7 @@ export default function FAQ({ section }: { section: SectionType }) {
           {section.label && (
             <Badge className="text-xs font-medium">{section.label}</Badge>
           )}
-          <h2 className="mt-4 text-4xl font-semibold">{section.title}</h2>
+          <h2 className="mt-4 text-4xl font-semibold leading-[1.2] bg-gradient-to-b from-white to-white/70 bg-clip-text text-transparent">{section.title}</h2>
           <p className="mt-6 font-medium text-muted-foreground">
             {section.description}
           </p>

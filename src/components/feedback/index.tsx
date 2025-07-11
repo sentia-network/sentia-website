@@ -100,7 +100,7 @@ export default function Feedback({
         </DialogTrigger>
         <DialogContent className="sm:max-w-[500px]">
           <DialogHeader>
-            <DialogTitle className="text-2xl font-bold">
+            <DialogTitle className="text-2xl font-semibold">
               {t("feedback.title")}
             </DialogTitle>
             <DialogDescription className="text-base">

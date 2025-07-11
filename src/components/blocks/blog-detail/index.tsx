@@ -13,7 +13,7 @@ export default function BlogDetail({ post }: { post: Post }) {
     <section className="py-16">
       <div className="container">
         <Crumb post={post} />
-        <h1 className="mb-7 mt-9 max-w-3xl text-2xl font-bold md:mb-10 md:text-4xl">
+        <h1 className="mb-7 mt-9 max-w-3xl text-2xl font-semibold md:mb-10 md:text-4xl">
           {post.title}
         </h1>
         <div className="flex items-center gap-3 text-sm md:text-base bg-background">

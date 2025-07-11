@@ -81,7 +81,7 @@ export default function Invite({ summary }: { summary: any }) {
               loading={loading}
             />
             <div className="flex items-center gap-2">
-              <span className="text-3xl font-bold">
+              <span className="text-3xl font-semibold">
                 {user.invite_code || "NOT SET"}
               </span>
               <Icon
@@ -110,7 +110,7 @@ export default function Invite({ summary }: { summary: any }) {
             <h2 className="text-sm text-gray-500 mb-4">
               {t("my_invites.invite_balance")}
             </h2>
-            <p className="text-4xl font-bold">${summary.total_reward / 100}</p>
+            <p className="text-4xl font-semibold">${summary.total_reward / 100}</p>
           </div>
           {/* <Button className="" size="sm">
             奖励提现
@@ -119,19 +119,19 @@ export default function Invite({ summary }: { summary: any }) {
 
         <div className="grid grid-cols-4 gap-4">
           <div>
-            <p className="text-2xl font-bold">{summary.total_invited}</p>
+            <p className="text-2xl font-semibold">{summary.total_invited}</p>
             <p className="text-sm text-gray-500">
               {t("my_invites.total_invite_count")}
             </p>
           </div>
           <div>
-            <p className="text-2xl font-bold">{summary.total_paid}</p>
+            <p className="text-2xl font-semibold">{summary.total_paid}</p>
             <p className="text-sm text-gray-500">
               {t("my_invites.total_paid_count")}
             </p>
           </div>
           <div>
-            <p className="text-2xl font-bold">${summary.total_reward / 100}</p>
+            <p className="text-2xl font-semibold">${summary.total_reward / 100}</p>
             <p className="text-sm text-gray-500">
               {t("my_invites.total_award_amount")}
             </p>

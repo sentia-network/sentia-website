@@ -153,7 +153,7 @@
         "description": "Every account has its own Agent that learns your preferences, habits, and goals",
         "icon": "RiUser5Line",
         "image": {
-          "src": "/imgs/features/2.png"
+          "src": "/imgs/features/10.png"
         }
       },
       {
@@ -161,7 +161,7 @@
         "description": "A2A protocol enables seamless collaboration between agents for fast knowledge and resource transfer",
         "icon": "RiLinksLine",
         "image": {
-          "src": "/imgs/features/2.png"
+          "src": "/imgs/features/11.png"
         }
       },
       {
@@ -169,7 +169,7 @@
         "description": "All actions require explicit permission, with permission layers and on-chain auditability",
         "icon": "RiShieldKeyholeLine",
         "image": {
-          "src": "/imgs/features/2.png"
+          "src": "/imgs/features/12.png"
         }
       },
       {
@@ -177,7 +177,7 @@
         "description": "Agents don’t just react — they sense context and take initiative on your behalf",
         "icon": "RiRadarLine",
         "image": {
-          "src": "/imgs/features/2.png"
+          "src": "/imgs/features/13.png"
         }
       }
     ]

@@ -52,7 +52,7 @@ export default function Footer({ footer }: { footer: FooterType }) {
             <div className="grid grid-cols-3 gap-6 lg:gap-20">
               {footer.nav?.items?.map((item, i) => (
                 <div key={i}>
-                  <p className="mb-6 font-bold">{item.title}</p>
+                  <p className="mb-6 font-semibold">{item.title}</p>
                   <ul className="space-y-4 text-sm text-muted-foreground">
                     {item.children?.map((iitem, ii) => (
                       <li key={ii} className="font-medium hover:text-primary">

@@ -10,7 +10,7 @@ export default function Feature({ section }: { section: SectionType }) {
     <section id={section.name} className="py-16">
       <div className="container">
         <div className="mx-auto flex max-w-(--breakpoint-md) flex-col items-center gap-2">
-          <h2 className="mb-2 text-pretty text-3xl font-bold lg:text-4xl">
+          <h2 className="mb-2 text-pretty text-3xl font-semibold lg:text-4xl leading-[1.2] bg-gradient-to-b from-white to-white/70 bg-clip-text text-transparent">
             {section.title}
           </h2>
           <p className="mb-8 max-w-xl text-muted-foreground lg:max-w-none lg:text-lg">

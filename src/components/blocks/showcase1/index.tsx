@@ -41,7 +41,7 @@ export default function Showcase1({ section }: { section: SectionType }) {
     <section id={section.name} className="py-16">
       <div className="container">
         <div className="mb-8 flex items-end justify-between md:mb-14 lg:mb-16">
-          <h2 className="mb-2 text-pretty text-3xl font-bold lg:text-4xl">
+          <h2 className="mb-2 text-pretty text-3xl font-semibold lg:text-4xl">
             {section.title}
           </h2>
           <div className="shrink-0 gap-2 md:flex">

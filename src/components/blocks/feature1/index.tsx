@@ -19,7 +19,7 @@ export default function Feature1({ section }: { section: SectionType }) {
           )}
           <div className="flex flex-col lg:text-left">
             {section.title && (
-              <h2 className="mb-6 text-pretty text-3xl font-bold lg:text-4xl">
+              <h2 className="mb-6 text-pretty text-3xl font-semibold lg:text-4xl leading-[1.2] bg-gradient-to-b from-white to-white/70 bg-clip-text text-transparent">
                 {section.title}
               </h2>
             )}

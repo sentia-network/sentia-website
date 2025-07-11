@@ -17,6 +17,24 @@ export default function Hero({ hero }: { hero: HeroType }) {
     texts = hero.title?.split(highlightText, 2);
   }
 
+  type GridStyle = React.CSSProperties & {
+    '--grid-angle': string;
+    '--cell-size': string;
+    '--opacity': string;
+    '--light-line': string;
+    '--dark-line': string;
+  };
+
+  const gridStyle: GridStyle = {
+    '--grid-angle': '65deg',
+    '--cell-size': '60px',
+    '--opacity': '0.5',
+    '--light-line': 'gray',
+    '--dark-line': 'gray',
+  };
+
+
+
   return (
     <>
       <HeroBg />
@@ -45,7 +63,7 @@ export default function Hero({ hero }: { hero: HeroType }) {
             )} */}
 
             {texts && texts.length > 1 ? (
-              <h1 className="mx-auto mb-3 mt-4 max-w-6xl text-balance text-4xl font-bold lg:mb-7 lg:text-7xl">
+              <h1 className="mx-auto mb-3 mt-4 max-w-6xl text-balance text-4xl font-semibold lg:mb-7 lg:text-7xl">
                 {texts[0]}
                 <span className="bg-linear-to-r from-primary via-primary to-primary bg-clip-text text-transparent">
                   {highlightText}
@@ -53,7 +71,7 @@ export default function Hero({ hero }: { hero: HeroType }) {
                 {texts[1]}
               </h1>
             ) : (
-              <h1 className="mx-auto mb-3 mt-4 max-w-6xl text-balance text-4xl font-bold lg:mb-7 lg:text-7xl">
+              <h1 className="mx-auto mb-3 mt-4 max-w-6xl text-balance text-4xl font-semibold leading-[1.2] lg:mb-7 lg:text-7xl bg-gradient-to-b from-white to-white/70 bg-clip-text text-transparent">
                 {hero.title}
               </h1>
             )}

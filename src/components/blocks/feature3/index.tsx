@@ -17,7 +17,7 @@ export default function Feature3({ section }: { section: SectionType }) {
               {section.label}
             </Badge>
           )}
-          <h2 className="mb-6 text-pretty text-3xl font-bold lg:text-4xl">
+          <h2 className="mb-6 text-pretty text-3xl font-semibold lg:text-4xl">
             {section.title}
           </h2>
           <p className="mb-4 max-w-xl text-muted-foreground lg:max-w-none lg:text-lg">
